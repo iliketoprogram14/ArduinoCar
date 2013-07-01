@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="3296838d-4b8f-49bb-8f85-7008b033ca9e" Title="ArduinoController Namespace" Url="html/N_ArduinoController.htm">
+    <HelpTOCNode Id="01c3b986-533a-4dd7-a009-4579d49dccca" Title="App Class" Url="html/T_ArduinoController_App.htm">
+      <HelpTOCNode Title="App Members" Url="html/AllMembers_T_ArduinoController_App.htm" />
+      <HelpTOCNode Title="App Constructor " Url="html/M_ArduinoController_App__ctor.htm" />
+      <HelpTOCNode Id="eeebb8f1-2452-444a-97ad-a8ea3c54569a" Title="App Methods" Url="html/Methods_T_ArduinoController_App.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/M_ArduinoController_App_InitializeComponent.htm" />
+        <HelpTOCNode Title="Main Method " Url="html/M_ArduinoController_App_Main.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4ca36314-b460-4ab4-952c-8685c9f56d7f" Title="MainWindow Class" Url="html/T_ArduinoController_MainWindow.htm">
+      <HelpTOCNode Title="MainWindow Members" Url="html/AllMembers_T_ArduinoController_MainWindow.htm" />
+      <HelpTOCNode Title="MainWindow Constructor " Url="html/M_ArduinoController_MainWindow__ctor.htm" />
+      <HelpTOCNode Title="MainWindow Constructor " Url="html/M_ArduinoController_MainWindow__cctor.htm" />
+      <HelpTOCNode Id="116e0b2a-9fb4-4b1b-9ef1-a06720c9c61f" Title="MainWindow Fields" Url="html/Fields_T_ArduinoController_MainWindow.htm">
+        <HelpTOCNode Title="_contentLoaded Field" Url="html/F_ArduinoController_MainWindow__contentLoaded.htm" />
+        <HelpTOCNode Title="_handX Field" Url="html/F_ArduinoController_MainWindow__handX.htm" />
+        <HelpTOCNode Title="_handY Field" Url="html/F_ArduinoController_MainWindow__handY.htm" />
+        <HelpTOCNode Title="_isClosing Field" Url="html/F_ArduinoController_MainWindow__isClosing.htm" />
+        <HelpTOCNode Title="_LhandX Field" Url="html/F_ArduinoController_MainWindow__LhandX.htm" />
+        <HelpTOCNode Title="_LhandY Field" Url="html/F_ArduinoController_MainWindow__LhandY.htm" />
+        <HelpTOCNode Title="_RhandX Field" Url="html/F_ArduinoController_MainWindow__RhandX.htm" />
+        <HelpTOCNode Title="_RhandY Field" Url="html/F_ArduinoController_MainWindow__RhandY.htm" />
+        <HelpTOCNode Title="_selectedButton Field" Url="html/F_ArduinoController_MainWindow__selectedButton.htm" />
+        <HelpTOCNode Title="_selectedLButton Field" Url="html/F_ArduinoController_MainWindow__selectedLButton.htm" />
+        <HelpTOCNode Title="allSkeletons Field" Url="html/F_ArduinoController_MainWindow_allSkeletons.htm" />
+        <HelpTOCNode Title="ArduinoLfwd Field" Url="html/F_ArduinoController_MainWindow_ArduinoLfwd.htm" />
+        <HelpTOCNode Title="ArduinoMax Field" Url="html/F_ArduinoController_MainWindow_ArduinoMax.htm" />
+        <HelpTOCNode Title="ArduinoRfwd Field" Url="html/F_ArduinoController_MainWindow_ArduinoRfwd.htm" />
+        <HelpTOCNode Title="ArduinoStop Field" Url="html/F_ArduinoController_MainWindow_ArduinoStop.htm" />
+        <HelpTOCNode Title="bc Field" Url="html/F_ArduinoController_MainWindow_bc.htm" />
+        <HelpTOCNode Title="BoxLX Field" Url="html/F_ArduinoController_MainWindow_BoxLX.htm" />
+        <HelpTOCNode Title="BoxLY Field" Url="html/F_ArduinoController_MainWindow_BoxLY.htm" />
+        <HelpTOCNode Title="BoxRX Field" Url="html/F_ArduinoController_MainWindow_BoxRX.htm" />
+        <HelpTOCNode Title="BoxRY Field" Url="html/F_ArduinoController_MainWindow_BoxRY.htm" />
+        <HelpTOCNode Title="ComPortNum Field" Url="html/F_ArduinoController_MainWindow_ComPortNum.htm" />
+        <HelpTOCNode Title="crossedWallFromLeft Field" Url="html/F_ArduinoController_MainWindow_crossedWallFromLeft.htm" />
+        <HelpTOCNode Title="crossedWallFromRight Field" Url="html/F_ArduinoController_MainWindow_crossedWallFromRight.htm" />
+        <HelpTOCNode Title="currentMode Field" Url="html/F_ArduinoController_MainWindow_currentMode.htm" />
+        <HelpTOCNode Title="darkBlue Field" Url="html/F_ArduinoController_MainWindow_darkBlue.htm" />
+        <HelpTOCNode Title="enginesImg Field" Url="html/F_ArduinoController_MainWindow_enginesImg.htm" />
+        <HelpTOCNode Title="fadeIn Field" Url="html/F_ArduinoController_MainWindow_fadeIn.htm" />
+        <HelpTOCNode Title="fadeOut Field" Url="html/F_ArduinoController_MainWindow_fadeOut.htm" />
+        <HelpTOCNode Title="FLabel Field" Url="html/F_ArduinoController_MainWindow_FLabel.htm" />
+        <HelpTOCNode Title="FRslider Field" Url="html/F_ArduinoController_MainWindow_FRslider.htm" />
+        <HelpTOCNode Title="FRSliderBottomY Field" Url="html/F_ArduinoController_MainWindow_FRSliderBottomY.htm" />
+        <HelpTOCNode Title="FRsliderButton Field" Url="html/F_ArduinoController_MainWindow_FRsliderButton.htm" />
+        <HelpTOCNode Title="FRSliderCenterY Field" Url="html/F_ArduinoController_MainWindow_FRSliderCenterY.htm" />
+        <HelpTOCNode Title="FRSliderTopY Field" Url="html/F_ArduinoController_MainWindow_FRSliderTopY.htm" />
+        <HelpTOCNode Title="FRSliderX Field" Url="html/F_ArduinoController_MainWindow_FRSliderX.htm" />
+        <HelpTOCNode Title="kinectColorViewer1 Field" Url="html/F_ArduinoController_MainWindow_kinectColorViewer1.htm" />
+        <HelpTOCNode Title="kinectHand Field" Url="html/F_ArduinoController_MainWindow_kinectHand.htm" />
+        <HelpTOCNode Title="kinectHandL Field" Url="html/F_ArduinoController_MainWindow_kinectHandL.htm" />
+        <HelpTOCNode Title="kinectSensorChooser1 Field" Url="html/F_ArduinoController_MainWindow_kinectSensorChooser1.htm" />
+        <HelpTOCNode Title="kinectSkeletonViewer1 Field" Url="html/F_ArduinoController_MainWindow_kinectSkeletonViewer1.htm" />
+        <HelpTOCNode Title="labelL Field" Url="html/F_ArduinoController_MainWindow_labelL.htm" />
+        <HelpTOCNode Title="labelR Field" Url="html/F_ArduinoController_MainWindow_labelR.htm" />
+        <HelpTOCNode Title="labels Field" Url="html/F_ArduinoController_MainWindow_labels.htm" />
+        <HelpTOCNode Title="labelX Field" Url="html/F_ArduinoController_MainWindow_labelX.htm" />
+        <HelpTOCNode Title="labelY Field" Url="html/F_ArduinoController_MainWindow_labelY.htm" />
+        <HelpTOCNode Title="lastRotation Field" Url="html/F_ArduinoController_MainWindow_lastRotation.htm" />
+        <HelpTOCNode Title="leftEngine Field" Url="html/F_ArduinoController_MainWindow_leftEngine.htm" />
+        <HelpTOCNode Title="leftEngineBottomY Field" Url="html/F_ArduinoController_MainWindow_leftEngineBottomY.htm" />
+        <HelpTOCNode Title="leftEngineButton Field" Url="html/F_ArduinoController_MainWindow_leftEngineButton.htm" />
+        <HelpTOCNode Title="leftEngineCenterY Field" Url="html/F_ArduinoController_MainWindow_leftEngineCenterY.htm" />
+        <HelpTOCNode Title="leftEngineTopY Field" Url="html/F_ArduinoController_MainWindow_leftEngineTopY.htm" />
+        <HelpTOCNode Title="leftEngineX Field" Url="html/F_ArduinoController_MainWindow_leftEngineX.htm" />
+        <HelpTOCNode Title="lhandBound Field" Url="html/F_ArduinoController_MainWindow_lhandBound.htm" />
+        <HelpTOCNode Title="lImg Field" Url="html/F_ArduinoController_MainWindow_lImg.htm" />
+        <HelpTOCNode Title="LRslider Field" Url="html/F_ArduinoController_MainWindow_LRslider.htm" />
+        <HelpTOCNode Title="LRsliderButton Field" Url="html/F_ArduinoController_MainWindow_LRsliderButton.htm" />
+        <HelpTOCNode Title="LRSliderCenterX Field" Url="html/F_ArduinoController_MainWindow_LRSliderCenterX.htm" />
+        <HelpTOCNode Title="LRSliderLeftX Field" Url="html/F_ArduinoController_MainWindow_LRSliderLeftX.htm" />
+        <HelpTOCNode Title="LRSliderRightX Field" Url="html/F_ArduinoController_MainWindow_LRSliderRightX.htm" />
+        <HelpTOCNode Title="LRSliderY Field" Url="html/F_ArduinoController_MainWindow_LRSliderY.htm" />
+        <HelpTOCNode Title="mainCanvas Field" Url="html/F_ArduinoController_MainWindow_mainCanvas.htm" />
+        <HelpTOCNode Title="menuButtons Field" Url="html/F_ArduinoController_MainWindow_menuButtons.htm" />
+        <HelpTOCNode Title="menuTitle Field" Url="html/F_ArduinoController_MainWindow_menuTitle.htm" />
+        <HelpTOCNode Title="noArduino Field" Url="html/F_ArduinoController_MainWindow_noArduino.htm" />
+        <HelpTOCNode Title="podButton Field" Url="html/F_ArduinoController_MainWindow_podButton.htm" />
+        <HelpTOCNode Title="podRacingBG Field" Url="html/F_ArduinoController_MainWindow_podRacingBG.htm" />
+        <HelpTOCNode Title="podRacingSliders Field" Url="html/F_ArduinoController_MainWindow_podRacingSliders.htm" />
+        <HelpTOCNode Title="precisionButton Field" Url="html/F_ArduinoController_MainWindow_precisionButton.htm" />
+        <HelpTOCNode Title="precisionImages Field" Url="html/F_ArduinoController_MainWindow_precisionImages.htm" />
+        <HelpTOCNode Title="precisionLabels Field" Url="html/F_ArduinoController_MainWindow_precisionLabels.htm" />
+        <HelpTOCNode Title="precisionSliders Field" Url="html/F_ArduinoController_MainWindow_precisionSliders.htm" />
+        <HelpTOCNode Title="rhandBound Field" Url="html/F_ArduinoController_MainWindow_rhandBound.htm" />
+        <HelpTOCNode Title="rightEngine Field" Url="html/F_ArduinoController_MainWindow_rightEngine.htm" />
+        <HelpTOCNode Title="rightEngineBottomY Field" Url="html/F_ArduinoController_MainWindow_rightEngineBottomY.htm" />
+        <HelpTOCNode Title="rightEngineButton Field" Url="html/F_ArduinoController_MainWindow_rightEngineButton.htm" />
+        <HelpTOCNode Title="rightEngineCenterY Field" Url="html/F_ArduinoController_MainWindow_rightEngineCenterY.htm" />
+        <HelpTOCNode Title="rightEngineTopY Field" Url="html/F_ArduinoController_MainWindow_rightEngineTopY.htm" />
+        <HelpTOCNode Title="rightEngineX Field" Url="html/F_ArduinoController_MainWindow_rightEngineX.htm" />
+        <HelpTOCNode Title="rImg Field" Url="html/F_ArduinoController_MainWindow_rImg.htm" />
+        <HelpTOCNode Title="RLabel Field" Url="html/F_ArduinoController_MainWindow_RLabel.htm" />
+        <HelpTOCNode Title="ScreenMaxX Field" Url="html/F_ArduinoController_MainWindow_ScreenMaxX.htm" />
+        <HelpTOCNode Title="ScreenMaxY Field" Url="html/F_ArduinoController_MainWindow_ScreenMaxY.htm" />
+        <HelpTOCNode Title="serialPort Field" Url="html/F_ArduinoController_MainWindow_serialPort.htm" />
+        <HelpTOCNode Title="steeringButton Field" Url="html/F_ArduinoController_MainWindow_steeringButton.htm" />
+        <HelpTOCNode Title="stopButton Field" Url="html/F_ArduinoController_MainWindow_stopButton.htm" />
+        <HelpTOCNode Title="stopped Field" Url="html/F_ArduinoController_MainWindow_stopped.htm" />
+        <HelpTOCNode Title="textBoxes Field" Url="html/F_ArduinoController_MainWindow_textBoxes.htm" />
+        <HelpTOCNode Title="timeZero Field" Url="html/F_ArduinoController_MainWindow_timeZero.htm" />
+        <HelpTOCNode Title="vc Field" Url="html/F_ArduinoController_MainWindow_vc.htm" />
+        <HelpTOCNode Title="ViewerCanvas Field" Url="html/F_ArduinoController_MainWindow_ViewerCanvas.htm" />
+        <HelpTOCNode Title="wheel Field" Url="html/F_ArduinoController_MainWindow_wheel.htm" />
+        <HelpTOCNode Title="wheelCenter Field" Url="html/F_ArduinoController_MainWindow_wheelCenter.htm" />
+        <HelpTOCNode Title="wheelHeight Field" Url="html/F_ArduinoController_MainWindow_wheelHeight.htm" />
+        <HelpTOCNode Title="wheelLeft Field" Url="html/F_ArduinoController_MainWindow_wheelLeft.htm" />
+        <HelpTOCNode Title="wheelLock Field" Url="html/F_ArduinoController_MainWindow_wheelLock.htm" />
+        <HelpTOCNode Title="wheelLockSlope Field" Url="html/F_ArduinoController_MainWindow_wheelLockSlope.htm" />
+        <HelpTOCNode Title="wheelTop Field" Url="html/F_ArduinoController_MainWindow_wheelTop.htm" />
+        <HelpTOCNode Title="wheelWidth Field" Url="html/F_ArduinoController_MainWindow_wheelWidth.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6a5d4d20-fa3e-4bbe-ab3b-b0952eb87b3e" Title="MainWindow Methods" Url="html/Methods_T_ArduinoController_MainWindow.htm">
+        <HelpTOCNode Title="ArduinoCloseSerial Method " Url="html/M_ArduinoController_MainWindow_ArduinoCloseSerial.htm" />
+        <HelpTOCNode Title="ArduinoOpenSerial Method " Url="html/M_ArduinoController_MainWindow_ArduinoOpenSerial.htm" />
+        <HelpTOCNode Title="ArduinoSendLeftRight Method " Url="html/M_ArduinoController_MainWindow_ArduinoSendLeftRight.htm" />
+        <HelpTOCNode Title="ArduinoSetSerial Method " Url="html/M_ArduinoController_MainWindow_ArduinoSetSerial.htm" />
+        <HelpTOCNode Title="compute Method " Url="html/M_ArduinoController_MainWindow_compute.htm" />
+        <HelpTOCNode Title="FRsliderButton_Clicked Method " Url="html/M_ArduinoController_MainWindow_FRsliderButton_Clicked.htm" />
+        <HelpTOCNode Title="GetFirstSkeleton Method " Url="html/M_ArduinoController_MainWindow_GetFirstSkeleton.htm" />
+        <HelpTOCNode Title="getRotation Method " Url="html/M_ArduinoController_MainWindow_getRotation.htm" />
+        <HelpTOCNode Title="initCommonComponents Method " Url="html/M_ArduinoController_MainWindow_initCommonComponents.htm" />
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/M_ArduinoController_MainWindow_InitializeComponent.htm" />
+        <HelpTOCNode Title="initPodRacingComponents Method " Url="html/M_ArduinoController_MainWindow_initPodRacingComponents.htm" />
+        <HelpTOCNode Title="initPrecisionComponents Method " Url="html/M_ArduinoController_MainWindow_initPrecisionComponents.htm" />
+        <HelpTOCNode Title="initSteeringComponents Method " Url="html/M_ArduinoController_MainWindow_initSteeringComponents.htm" />
+        <HelpTOCNode Title="isHandInButton Method " Url="html/M_ArduinoController_MainWindow_isHandInButton.htm" />
+        <HelpTOCNode Title="IsHandOverMenuButtons Method " Url="html/M_ArduinoController_MainWindow_IsHandOverMenuButtons.htm" />
+        <HelpTOCNode Title="IsLHandOverObject Method " Url="html/M_ArduinoController_MainWindow_IsLHandOverObject.htm" />
+        <HelpTOCNode Title="IsReadyToDrive Method " Url="html/M_ArduinoController_MainWindow_IsReadyToDrive.htm" />
+        <HelpTOCNode Title="IsRHandOverObject Method " Url="html/M_ArduinoController_MainWindow_IsRHandOverObject.htm" />
+        <HelpTOCNode Title="kinectHand_Clicked Method " Url="html/M_ArduinoController_MainWindow_kinectHand_Clicked.htm" />
+        <HelpTOCNode Title="kinectHandL_Click Method " Url="html/M_ArduinoController_MainWindow_kinectHandL_Click.htm" />
+        <HelpTOCNode Title="kinectSensorChooser1_KinectSensorChanged Method " Url="html/M_ArduinoController_MainWindow_kinectSensorChooser1_KinectSensorChanged.htm" />
+        <HelpTOCNode Title="leftEngineButton_Clicked Method " Url="html/M_ArduinoController_MainWindow_leftEngineButton_Clicked.htm" />
+        <HelpTOCNode Title="LRsliderButton_Clicked Method " Url="html/M_ArduinoController_MainWindow_LRsliderButton_Clicked.htm" />
+        <HelpTOCNode Title="menuButton_Clicked Method " Url="html/M_ArduinoController_MainWindow_menuButton_Clicked.htm" />
+        <HelpTOCNode Title="newAnimation Method " Url="html/M_ArduinoController_MainWindow_newAnimation.htm" />
+        <HelpTOCNode Title="newBackgroundAnimation Method " Url="html/M_ArduinoController_MainWindow_newBackgroundAnimation.htm" />
+        <HelpTOCNode Title="newImageAnimation Method " Url="html/M_ArduinoController_MainWindow_newImageAnimation.htm" />
+        <HelpTOCNode Title="podRacingBehavior Method " Url="html/M_ArduinoController_MainWindow_podRacingBehavior.htm" />
+        <HelpTOCNode Title="podRacingButton_Clicked Method " Url="html/M_ArduinoController_MainWindow_podRacingButton_Clicked.htm" />
+        <HelpTOCNode Title="precisionBehavior Method " Url="html/M_ArduinoController_MainWindow_precisionBehavior.htm" />
+        <HelpTOCNode Title="precisionButton_Clicked Method " Url="html/M_ArduinoController_MainWindow_precisionButton_Clicked.htm" />
+        <HelpTOCNode Title="rightEngineButton_Clicked Method " Url="html/M_ArduinoController_MainWindow_rightEngineButton_Clicked.htm" />
+        <HelpTOCNode Title="ScaleAndSetPosition Method " Url="html/M_ArduinoController_MainWindow_ScaleAndSetPosition.htm" />
+        <HelpTOCNode Title="scaleWheelVal Method " Url="html/M_ArduinoController_MainWindow_scaleWheelVal.htm" />
+        <HelpTOCNode Title="SendEngineValuesToArduino Method " Url="html/M_ArduinoController_MainWindow_SendEngineValuesToArduino.htm" />
+        <HelpTOCNode Title="sensor_AllFramesReady Method " Url="html/M_ArduinoController_MainWindow_sensor_AllFramesReady.htm" />
+        <HelpTOCNode Title="shiftViewerTo Method " Url="html/M_ArduinoController_MainWindow_shiftViewerTo.htm" />
+        <HelpTOCNode Title="StartMoving Method " Url="html/M_ArduinoController_MainWindow_StartMoving.htm" />
+        <HelpTOCNode Title="steeringBehavior Method " Url="html/M_ArduinoController_MainWindow_steeringBehavior.htm" />
+        <HelpTOCNode Title="steeringButton_Clicked Method " Url="html/M_ArduinoController_MainWindow_steeringButton_Clicked.htm" />
+        <HelpTOCNode Title="StopKinect Method " Url="html/M_ArduinoController_MainWindow_StopKinect.htm" />
+        <HelpTOCNode Title="StopMoving Method " Url="html/M_ArduinoController_MainWindow_StopMoving.htm" />
+        <HelpTOCNode Title="TransformAndSendDataToArduino Method " Url="html/M_ArduinoController_MainWindow_TransformAndSendDataToArduino.htm" />
+        <HelpTOCNode Title="TransformAndSendVelocity Method " Url="html/M_ArduinoController_MainWindow_TransformAndSendVelocity.htm" />
+        <HelpTOCNode Title="turnOffCurrentCanvas Method " Url="html/M_ArduinoController_MainWindow_turnOffCurrentCanvas.htm" />
+        <HelpTOCNode Title="turnOffMenu Method " Url="html/M_ArduinoController_MainWindow_turnOffMenu.htm" />
+        <HelpTOCNode Title="turnOffPodRacing Method " Url="html/M_ArduinoController_MainWindow_turnOffPodRacing.htm" />
+        <HelpTOCNode Title="turnOffPrecision Method " Url="html/M_ArduinoController_MainWindow_turnOffPrecision.htm" />
+        <HelpTOCNode Title="turnOffSteering Method " Url="html/M_ArduinoController_MainWindow_turnOffSteering.htm" />
+        <HelpTOCNode Title="turnOnMenu Method " Url="html/M_ArduinoController_MainWindow_turnOnMenu.htm" />
+        <HelpTOCNode Title="turnOnPodRacing Method " Url="html/M_ArduinoController_MainWindow_turnOnPodRacing.htm" />
+        <HelpTOCNode Title="turnOnPrecision Method " Url="html/M_ArduinoController_MainWindow_turnOnPrecision.htm" />
+        <HelpTOCNode Title="turnOnSteering Method " Url="html/M_ArduinoController_MainWindow_turnOnSteering.htm" />
+        <HelpTOCNode Title="UpdateBoxesWithCoords Method " Url="html/M_ArduinoController_MainWindow_UpdateBoxesWithCoords.htm" />
+        <HelpTOCNode Title="updateFRslider Method " Url="html/M_ArduinoController_MainWindow_updateFRslider.htm" />
+        <HelpTOCNode Title="updateHandPositions Method " Url="html/M_ArduinoController_MainWindow_updateHandPositions.htm" />
+        <HelpTOCNode Title="updateLeftEngine Method " Url="html/M_ArduinoController_MainWindow_updateLeftEngine.htm" />
+        <HelpTOCNode Title="updateLRslider Method " Url="html/M_ArduinoController_MainWindow_updateLRslider.htm" />
+        <HelpTOCNode Title="updateRightEngine Method " Url="html/M_ArduinoController_MainWindow_updateRightEngine.htm" />
+        <HelpTOCNode Title="Window_Closing Method " Url="html/M_ArduinoController_MainWindow_Window_Closing.htm" />
+        <HelpTOCNode Title="Window_Loaded Method " Url="html/M_ArduinoController_MainWindow_Window_Loaded.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="MainWindow.Mode Enumeration" Url="html/T_ArduinoController_MainWindow_Mode.htm" />
+    <HelpTOCNode Id="28c7e7b8-a715-4604-98b8-ba9d4a9013a6" Title="VoiceCommands Class" Url="html/T_ArduinoController_VoiceCommands.htm">
+      <HelpTOCNode Title="VoiceCommands Members" Url="html/AllMembers_T_ArduinoController_VoiceCommands.htm" />
+      <HelpTOCNode Title="VoiceCommands Constructor " Url="html/M_ArduinoController_VoiceCommands__ctor.htm" />
+      <HelpTOCNode Id="0303eb66-1292-4691-943e-af542ee7b923" Title="VoiceCommands Fields" Url="html/Fields_T_ArduinoController_VoiceCommands.htm">
+        <HelpTOCNode Title="audioSrc Field" Url="html/F_ArduinoController_VoiceCommands_audioSrc.htm" />
+        <HelpTOCNode Title="recognizer Field" Url="html/F_ArduinoController_VoiceCommands_recognizer.htm" />
+        <HelpTOCNode Title="ri Field" Url="html/F_ArduinoController_VoiceCommands_ri.htm" />
+        <HelpTOCNode Title="window Field" Url="html/F_ArduinoController_VoiceCommands_window.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cb865640-a225-44aa-a19c-1a27621c41f9" Title="VoiceCommands Methods" Url="html/Methods_T_ArduinoController_VoiceCommands.htm">
+        <HelpTOCNode Title="GetKinectRecognizer Method " Url="html/M_ArduinoController_VoiceCommands_GetKinectRecognizer.htm" />
+        <HelpTOCNode Title="loadGrammarAndWords Method " Url="html/M_ArduinoController_VoiceCommands_loadGrammarAndWords.htm" />
+        <HelpTOCNode Title="restartRecognizer Method " Url="html/M_ArduinoController_VoiceCommands_restartRecognizer.htm" />
+        <HelpTOCNode Title="SpeechRecognized Method " Url="html/M_ArduinoController_VoiceCommands_SpeechRecognized.htm" />
+        <HelpTOCNode Title="startRecognizer Method " Url="html/M_ArduinoController_VoiceCommands_startRecognizer.htm" />
+        <HelpTOCNode Title="stopRecognizer Method " Url="html/M_ArduinoController_VoiceCommands_stopRecognizer.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

@@ -1,0 +1,347 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ES 50
+\end_layout
+
+\begin_layout Author
+Saagar Deshpande & Randy Miller
+\end_layout
+
+\begin_layout Date
+April 12, 2012
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Standard
+We would like to make a car powered by Arduino that is remotely controlled
+ by a Microsoft Kinect.
+ 
+\end_layout
+
+\begin_layout Standard
+Initially, our goal will be to have 1 of us get a skeleton Kinect application
+ up and running that can respond to the movements that we want, and the
+ have the other create an Arduino car that can respond to some input, possibly
+ hard-coded into the application beforehand.
+ Then we will work on interfacing the application and the Arduino via a
+ USB connection.
+ Then, we will fine tune our application and our Arduino code/circuit for
+ performance.
+ The only materials we will need are an Arduino kit, a BOE BOT, a Kinect,
+ and Visual Studio.
+\end_layout
+
+\begin_layout Standard
+Ultimately, we expect to have an Arduino car respond (hopefully correctly)
+ to Kinect input such that it can drive around like a normal remote-controlled
+ car.
+\end_layout
+
+\begin_layout Section
+Features/Deliverables
+\end_layout
+
+\begin_layout Subsection
+Deliverables
+\end_layout
+
+\begin_layout Itemize
+Robot car can move in all reasonable directions
+\end_layout
+
+\begin_layout Itemize
+We can send instructions to the car from an Arduino
+\end_layout
+
+\begin_layout Itemize
+We have a Kinect application that can register basic gestures/voice commands
+\end_layout
+
+\begin_layout Itemize
+We can send input to the Aruduino from the Kinect application
+\end_layout
+
+\begin_layout Subsection
+Extras
+\end_layout
+
+\begin_layout Itemize
+Wireless connectivity (via IR)
+\end_layout
+
+\begin_layout Itemize
+Sophisticated Kinect Application
+\end_layout
+
+\begin_layout Itemize
+Tuning/Optimization
+\end_layout
+
+\begin_layout Itemize
+remote camera relayed to computer
+\end_layout
+
+\begin_layout Itemize
+go to specified location (AI)/give instructions
+\end_layout
+
+\begin_layout Section
+Design
+\end_layout
+
+\begin_layout Subsection
+Materials
+\end_layout
+
+\begin_layout Itemize
+Kinect
+\end_layout
+
+\begin_layout Itemize
+Kinect SDK
+\end_layout
+
+\begin_layout Itemize
+Visual Studio
+\end_layout
+
+\begin_layout Itemize
+Arduino Kit and Software, including circuit materials
+\end_layout
+
+\begin_layout Itemize
+BOE BOT
+\end_layout
+
+\begin_layout Subsection
+Pipeline
+\end_layout
+
+\begin_layout Enumerate
+Kinect processes input (voice/gesture) and translates to some pre-defined
+ protocol
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Kinect application registers input
+\end_layout
+
+\begin_layout Enumerate
+Kinect application translates input to some pre-defined protocol
+\end_layout
+
+\begin_layout Enumerate
+Kinect application sends data to Aruduino over USB connection
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The Arduino receives and parses messages
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Arduino receives message in C
+\end_layout
+
+\begin_layout Enumerate
+The data is quickly parsed into robot car instructions
+\end_layout
+
+\begin_layout Enumerate
+The resultant data is passed to the robot car
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The parsed data is then interpreted and executed by the car motors
+\end_layout
+
+\begin_layout Section
+Timeline
+\end_layout
+
+\begin_layout Subsection
+Stage 1: Design and Basic Implementations
+\end_layout
+
+\begin_layout Enumerate
+Design and create circuit for Arduino and BOE BOT
+\end_layout
+
+\begin_layout Enumerate
+Create Arduino code to control the car with simple hard-coded instructions
+\end_layout
+
+\begin_layout Enumerate
+Design and create basic bare-bones Kinect application that can register
+ (not recognize) input
+\end_layout
+
+\begin_layout Enumerate
+Design interface between Kinect and Arduino
+\end_layout
+
+\begin_layout Enumerate
+Design interface (if necessary) between Arduino and the car
+\end_layout
+
+\begin_layout Subsection
+Stage 2: Complicating the implementations and Adding Interfaces
+\end_layout
+
+\begin_layout Enumerate
+Adapt Arduino code to accept input that's formatted to adapt to the interface
+\end_layout
+
+\begin_layout Enumerate
+Test Arduino car on dynamic inputs, maybe via command line on a host computer
+\end_layout
+
+\begin_layout Enumerate
+Adapt Kinect application to recognize and parse input (not just register)
+\end_layout
+
+\begin_layout Enumerate
+Create classes that fulfill the Kinect/Arduino interface
+\end_layout
+
+\begin_layout Enumerate
+Add input-processing that translates input to the interface classes
+\end_layout
+
+\begin_layout Subsection
+Stage 3: Connecting the Components and Testing
+\end_layout
+
+\begin_layout Enumerate
+Adapt the Arduino to accept data from the Kinect
+\end_layout
+
+\begin_layout Enumerate
+Connect the Kinect to the Arduino
+\end_layout
+
+\begin_layout Enumerate
+Test
+\end_layout
+
+\begin_layout Subsection
+Stage 4: Testing, Optimization, and Extra Features
+\end_layout
+
+\begin_layout Enumerate
+More testing
+\end_layout
+
+\begin_layout Enumerate
+Add polish and optimize
+\end_layout
+
+\begin_layout Enumerate
+Add extra features, in this order
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Wireless connectivity using IR sensors and receivers
+\end_layout
+
+\begin_layout Enumerate
+Make the Kinect application fancy
+\end_layout
+
+\begin_layout Enumerate
+Make the Kinect application parse instructions
+\end_layout
+
+\begin_layout Enumerate
+All other extras
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Notes
+\end_layout
+
+\begin_layout Standard
+Our source code will be hosted on code.seas.harvard.edu, meaning that we will
+ be using Git as for our souce code management needs.
+ 
+\end_layout
+
+\begin_layout Standard
+We will be using Sandcastle to compile documentation for our Kinect application,
+ and we will put any documentation for the Arduino into a PDF document.
+\end_layout
+
+\end_body
+\end_document
